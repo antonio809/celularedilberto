@@ -121,7 +121,7 @@ a{
     height: 225px;
     border-radius: 20px;
     border: 1px solid black;
-    position: relative;
+    position: absolute;
     right: 20%;
     bottom: 40%;
 }
@@ -130,8 +130,8 @@ section{
     padding: 10px;
 }
 #fundo1{
-    position: relative;
-    bottom: 13%;
+    position: absolute;
+    top: 62%;
     right: 2.5%;
     background-color: grey;
     color: white;
@@ -150,8 +150,9 @@ section{
 
 #bola{
     position: relative;
-    bottom: 75%;
-    right: 5%;
+    bottom: 55%;
+    margin-top: 6%;
+    right: -83%;
     width: 10%;
     height: 5%;
 }

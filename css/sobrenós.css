@@ -124,11 +124,13 @@ img{
     position: relative;
     left: 25%;
     top: 25%;
+    margin-top: 23%;
 }
 
 #kaio2{
      position: relative;
      bottom: 23%;
+     margin-top: 8%;
      right: -5%;
      padding: 25px;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

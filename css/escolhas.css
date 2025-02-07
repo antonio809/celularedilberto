@@ -1,0 +1,70 @@
+h1{
+    color: black;
+    position: relative;
+    top: 5%;
+    font-size: 30px;
+}
+
+a{
+    color: whitesmoke;
+}
+/* personalização da div */
+#fundos{
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 250px;
+    border-radius: 35px;
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.1);
+}
+
+/* botões darkmode/entrar/login e etc. */
+.button{
+    width: 35%;
+    background-color: grey;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+#darkMode{
+    width: 10%;
+    position: fixed;
+    left: 87%;
+    bottom: 90%;
+    background-color: black;
+}
+
+#darkMode:active{
+    transform: scale(0.98); /*pequeno efeito de pressionado*/
+}
+
+#darkMode.clicado{
+    background-color: white;
+    color: black;
+}
+/* estilização do tema escuro. */
+/* styles.css */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Tema escuro */
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+}
+
+

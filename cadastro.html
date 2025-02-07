@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="icns/iconesite-removebg-preview.png" type="png">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cadastro</h1><!-- sisteminha de cadastro com restições (olha essa brincadeira!).-->
+    <form id="cadastroForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <small id="nomeErro" class="erro"></small>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+        <small id="emailErro" class="erro"></small>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Senha com 6 ou mais caracteres" required>
+        <small id="senhaErro" class="erro"></small>
+
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" placeholder="Repita a senha" required>
+        <small id="confirmarSenhaErro" class="erro"></small>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    <div id="mensagemCadastro"></div>
+    <a href="index.html"><button id="voltar2">Voltar</button></a>
+    <!-- Scripts js da página.-->
+    <script src="js/cadlogin.js"></script>
+    <script src="js/modoescuro.js"></script>
+</body>
+</html>
+

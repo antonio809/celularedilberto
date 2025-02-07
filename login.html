@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="icns/iconesite-removebg-preview.png" type="png">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm"> <!-- isso mostra o login, abaixo tem os inputs.-->
+        <label for="emailLogin">E-mail:</label>
+        <input type="email" id="emailLogin" placeholder="seuemail@exemplo.com" required>
+        <small id="emailLoginErro" class="erro"></small>
+
+        <label for="senhaLogin">Senha:</label>
+        <input type="password" id="senhaLogin" placeholder="Sua senha" required>
+        <small id="senhaLoginErro" class="erro"></small>
+
+        <button type="submit">Entrar</button>
+    </form>
+    <div id="mensagemLogin"></div>
+    <a href="index.html"><button id="voltar">Voltar</button></a>
+    <!--scripts js da página.-->
+    <script src="js/cadlogin.js"></script>
+    <script src="js/modoescuro.js"></script>
+</body>
+</html>

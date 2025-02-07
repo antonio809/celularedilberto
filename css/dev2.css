@@ -121,7 +121,7 @@ a{
     height: 225px;
     border-radius: 20px;
     border: 1px solid black;
-    position: fixed;
+    position: relative;
     right: 20%;
     bottom: 40%;
 }
@@ -131,7 +131,7 @@ section{
 }
 
 #fundo1{
-    position: fixed;
+    position: relative;
     bottom: 13%;
     right: 2.5%;
     background-color: grey;

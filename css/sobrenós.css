@@ -121,13 +121,13 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 35px;
-    position: fixed;
+    position: relative;
     left: 25%;
     top: 25%;
 }
 
 #kaio2{
-     position: fixed;
+     position: relative;
      bottom: 23%;
      right: -5%;
      padding: 25px;
